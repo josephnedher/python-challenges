@@ -18,4 +18,4 @@ data_sorted = {k: v for k, v in sorted(d.items(), key=lambda x: x[1])}
 print(data_sorted)
 cloud = WordCloud()
 cloud.generate_from_frequencies(data_sorted)
-cloud.to_file(pather)
+cloud.to_file(pather+"jpg")
